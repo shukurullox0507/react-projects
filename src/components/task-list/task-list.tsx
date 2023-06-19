@@ -48,7 +48,7 @@ const App = (): JSX.Element => {
                     <button type="submit">Add</button>
                 </div>
             </form>
-            <TodoList todo={todos} completedTasks={completedTasks} onDelete={handleDelete} onComplete={handleComplete} />
+            <TodoList todos={todos} completedTasks={completedTasks} onDelete={handleDelete} onComplete={handleComplete} />
             <button className="start-over" onClick={handleReset}>Start Over</button>
         </div>
     );
